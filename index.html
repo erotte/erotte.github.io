@@ -33,10 +33,13 @@
       font-style: normal;
     }
 
-    .list-inline li {
-      float: left;
-      margin-right: 2em
+    .list-inline {
+      overflow: hidden;
+    }
 
+    .list-inline li {
+      display: inline-block;
+      margin-right: 1em;
     }
 
     .list-inline li:first-child {
@@ -47,7 +50,8 @@
       font-family: "Droid Sans", sans-serif;
       color: #888;
       font-size: 15px;
-      line-height: 22px
+      line-height: 22px;
+      padding-bottom: 1em
     }
 
     h1, h2, h3 {
@@ -80,8 +84,15 @@
     #main {
       width: 70%;
       margin: 7% auto;
+
     }
 
+@media only screen and (max-device-width: 480px) {
+      #main {
+      width: 93%;
+      margin: 7% auto;
+    }
+}
     header {
       overflow: hidden;
       margin-left: -0.2em
@@ -109,6 +120,9 @@
 
     .adr-social {
       color: #aeaeae;
+      font-size: 14px;
+      margin-bottom: 1em;
+
     }
   </style>
 

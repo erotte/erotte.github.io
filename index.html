@@ -48,12 +48,13 @@
     .list-inline li:last-child {
       margin-right: 0
     }
+
     body {
       font-family: "Droid Sans", sans-serif;
       color: #888;
       font-size: 15px;
       line-height: 22px;
-      padding-bottom: 1em
+      padding-bottom: 1em;
     }
 
     h1, h2, h3 {
@@ -63,6 +64,7 @@
     p {
       margin-bottom: 1em
     }
+
     a {
       -moz-transition-property:all;
       -webkit-transition-property:all;
@@ -85,7 +87,8 @@
 
     #main {
       width: 70%;
-      margin: 7% auto;
+      /* 1000px scrolling space for fartscroll.js */
+      margin: 7% auto 1000px auto;
 
     }
 
@@ -189,6 +192,10 @@
     </li>
   </ul>
 </section>
+<script src="http://code.onion.com/fartscroll.js"></script>
+<script>
+  fartscroll(400)
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -197,6 +204,7 @@
 
   ga('create', 'UA-39381114-2', 'erotte.de');
   ga('send', 'pageview');
+  // ga('require', 'linkid', 'linkid.js');
 
 </script>
 </body>

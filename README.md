@@ -1,4 +1,5 @@
 erotte.de
 =========
 
-my simple vcard page
+my simple vcard page.
+Simpler geht es nicht!

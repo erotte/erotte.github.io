@@ -1,210 +1,224 @@
 <!DOCTYPE html>
 <html lang="de" class="no-js">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Eckhard Rotte • Web-Entwicklung Frontend/Ruby on Rails • Bremen</title>
+    <title>Eckhard Rotte • Web-Entwicklung Frontend/Ruby on Rails • Bremen</title>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Eckhard Rotte entwickelt Software für das Web - mit Ruby on Rails, JavaScript und HTML5">
-  <meta name="keywords" content="Eckhard Rotte,Softwareentwicklung,Webentwicklung,App-Entwicklung,Software,Entwicklung,Entwickler,Beratung,Ruby,Rails,Ruby on Rails,Ruby on Rails Entwickler,JavaScript,HTML5,CSS3,Mobile,Bremen, Möpelschnöpel">
-  <meta name="author" content="Eckhard Rotte">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Eckhard Rotte entwickelt Software für das Web - mit Ruby on Rails, JavaScript und HTML5">
+    <meta name="keywords" content="Eckhard Rotte,Softwareentwicklung,Webentwicklung,App-Entwicklung,Software,Entwicklung,Entwickler,Beratung,Ruby,Rails,Ruby on Rails,Ruby on Rails Entwickler,JavaScript,HTML5,CSS3,Mobile,Bremen, Möpelschnöpel">
+    <meta name="author" content="Eckhard Rotte">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--[if lte IE 8]>
+    <!--[if lte IE 8]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
 
-  <style type="text/css">
-      /* The one and only global reset */
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    @font-face {
-      font-family: "Axel";
-      src: url("/fonts/axel-regular.eot");
-      src: local("☺"), url("/fonts/axel-regular.woff") format("woff"), url("/fonts/axel-regular.ttf") format("truetype"), url("/fonts/axel-regular.otf") format("opentype"), url("/fonts/axel-regular.svg") format("svg");
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    .list-inline {
-      overflow: hidden;
-    }
-
-    .list-inline li {
-      display: inline-block;
-      margin-right: 0.9em;
-    }
-
-    .list-inline li:first-child {
-      list-style: none
-    }
-    .list-inline li:last-child {
-      margin-right: 0
-    }
-
-    body {
-      font-family: "Droid Sans", sans-serif;
-      color: #888;
-      font-size: 15px;
-      line-height: 22px;
-      padding-bottom: 1em;
-    }
-
-    h1, h2, h3 {
-      font-weight: 500;
-    }
-
-    p {
-      margin-bottom: 1em
-    }
-
-    a {
-      -moz-transition-property:all;
-      -webkit-transition-property:all;
-      -o-transition-property:all;
-      transition-property:all;
-      -moz-transition-duration:0.35s;
-      -webkit-transition-duration:0.35s;
-      -o-transition-duration:0.35s;
-      transition-duration:0.35s
-    }
-    a, a:visited {
-      color: #69e;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #67e;
-    }
-
-    #main {
-      width: 70%;
-      /* insert 1000px scrolling space when using fartscroll.js */
-      margin: 7% auto 2% auto;
-
-    }
-
-@media only screen and (max-device-width: 480px) {
-      #main {
-      width: 93%;
-      margin: 7% auto;
-    }
-}
-    header {
-      overflow: hidden;
-      margin-left: -0.2em
-    }
-
-    .brand {
-      color: #777;
-      font-family: "Axel", sans-serif;
-      font-weight: normal;
-      margin: 0 auto 2em auto;
-      display: inline-block;
-    }
-
-    .brand-name {
-      font-size: 51px;
-      line-height: 1;
-    }
-
-    .brand-sub {
-      border-top: 1px solid #eee;
-      font-size: 20px;
-      line-height: 1.2;
-      margin-left: 0.2em
-    }
-
-    .adr-social {
-      color: #aeaeae;
-      font-size: 14px;
-      margin-bottom: 1em;
-
-    }
-  </style>
+    <style type="text/css">
+        /* The one and only global reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        @font-face {
+            font-family: "Axel";
+            src: url("/fonts/axel-regular.eot");
+            src: local("☺"), url("/fonts/axel-regular.woff") format("woff"), url("/fonts/axel-regular.ttf") format("truetype"), url("/fonts/axel-regular.otf") format("opentype"), url("/fonts/axel-regular.svg") format("svg");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .list-inline {
+            overflow: hidden;
+        }
+        
+        .list-inline li {
+            display: inline-block;
+            margin-right: 0.9em;
+        }
+        
+        .list-inline li:first-child {
+            list-style: none
+        }
+        
+        .list-inline li:last-child {
+            margin-right: 0
+        }
+        
+        body {
+            font-family: "Droid Sans", sans-serif;
+            color: #888;
+            font-size: 15px;
+            line-height: 22px;
+            padding-bottom: 1em;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-weight: 500;
+        }
+        
+        p {
+            margin-bottom: 1em
+        }
+        
+        a {
+            -moz-transition-property: all;
+            -webkit-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -moz-transition-duration: 0.35s;
+            -webkit-transition-duration: 0.35s;
+            -o-transition-duration: 0.35s;
+            transition-duration: 0.35s
+        }
+        
+        a,
+        a:visited {
+            color: #69e;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #67e;
+        }
+        
+        #main {
+            width: 70%;
+            /* insert 1000px scrolling space when using fartscroll.js */
+            margin: 7% auto 2% auto;
+        }
+        
+        @media only screen and (max-device-width: 480px) {
+            #main {
+                width: 93%;
+                margin: 7% auto;
+            }
+        }
+        
+        header {
+            overflow: hidden;
+            margin-left: -0.2em
+        }
+        
+        .brand {
+            color: #777;
+            font-family: "Axel", sans-serif;
+            font-weight: normal;
+            margin: 0 auto 2em auto;
+            display: inline-block;
+        }
+        
+        .brand-name {
+            font-size: 51px;
+            line-height: 1;
+        }
+        
+        .brand-sub {
+            border-top: 1px solid #eee;
+            font-size: 24px;
+            line-height: 1.2;
+            margin-left: 0.2em
+        }
+        
+        .adr-social {
+            color: #aeaeae;
+            font-size: 14px;
+            margin-bottom: 1em;
+        }
+    </style>
 
 </head>
+
 <body>
 
-<section id="main" class="vcard">
-  <header>
-    <hgroup class="brand">
-      <h1 class="brand-name">
-        Eckhard Rotte
-      </h1>
+    <section id="main" class="vcard">
+        <header>
+            <hgroup class="brand">
+                <h1 class="brand-name">
+                    Eckhard Rotte
+                </h1>
 
-      <h2 class="brand-sub">
-        <small>
-          Web-Entwicklung Frontend/Ruby on Rails
+                <h2 class="brand-sub">
+                    <small>
+          freiberuflicher Softwareentwickler
         </small>
-      </h2>
-    </hgroup>
-  </header>
+                </h2>
+            </hgroup>
+        </header>
 
-  <p class="adr-postal">
-    <span class="fn">Eckhard Rotte</span>
-    <br>
-    <span class="street-address">Am Wall 142</span>
-    <br>
-    <span class="postal-code">282195</span> <span class="locality">Bremen</span>
-    <br>
-    <span class="mail"><a class="email" href="mailto:mail@erotte.de" rel="me">mail@erotte.de</a></span>
-    <br>
-    <span class="tel"><a href="tel:+4917623498896">+49 (0)176 234 988 96</a></span>
-  </p>
+        <p class="adr-postal">
+            <span class="fn">Eckhard Rotte</span>
+            <br>
+            <span class="street-address">Am Wall 142</span>
+            <br>
+            <span class="postal-code">282195</span> <span class="locality">Bremen</span>
+            <br>
+            <span class="mail"><a class="email" href="mailto:mail@erotte.de" rel="me">mail@erotte.de</a></span>
+            <br>
+            <span class="tel"><a href="tel:+4917623498896">+49 (0)176 234 988 96</a></span>
+        </p>
 
-  <p class="adr-web">
-    Weitere Infos, Referenzen, Team:
-    <br>
-    <span class="web"><a class="url" href="http://appfertigung.de/" rel="us">appfertigung.de</a></span>
-    <br>
+        <p class="adr-web">
+            Weitere Infos, Referenzen, Team:
+            <br>
+            <span class="web"><a class="url" href="http://appfertigung.de/" rel="us">appfertigung.de</a></span>
+            <br>
 
-    <br>
-  </p>
-  <ul class="list-inline adr-social">
-    <li class="web link link-xing">
-      <a class="url" href="http://xing.to/erotte" rel="xing">Xing</a>
-    </li>
-    <li class="web link link-github">
-      <a class="url" href="http://github.com/erotte" rel="github">GitHub</a>
-    </li>
-    <li class="web link link-twitter">
-      <a class="url" href="http://twitter.com/erotte" rel="twitter">Twitter</a>
-    </li>
-    <li class="web link link-facebook">
-      <a class="url" href="http://facebook.com/erotte" rel="facebook">Facebook</a>
-    </li>
-  </ul>
-  <ul class="list-inline adr-social">
-    <li class="web link link-pgp">
-      <a class="url" href="http://erotte.de/0C0576E296F6B496.txt" rel="pgp">PGP-Key 0C0576E296F6B496</a>
-    </li>
-  </ul>
-</section>
-<!--
+            <br>
+        </p>
+        <ul class="list-inline adr-social">
+            <li class="web link link-xing">
+                <a class="url" href="http://xing.to/erotte" rel="xing">Xing</a>
+            </li>
+            <li class="web link link-github">
+                <a class="url" href="http://github.com/erotte" rel="github">GitHub</a>
+            </li>
+            <li class="web link link-twitter">
+                <a class="url" href="http://twitter.com/erotte" rel="twitter">Twitter</a>
+            </li>
+            <li class="web link link-facebook">
+                <a class="url" href="http://facebook.com/erotte" rel="facebook">Facebook</a>
+            </li>
+        </ul>
+        <ul class="list-inline adr-social">
+            <li class="web link link-pgp">
+                <a class="url" href="http://erotte.de/0C0576E296F6B496.txt" rel="pgp">PGP-Key 0C0576E296F6B496</a>
+            </li>
+        </ul>
+    </section>
+    <!--
 <script src="http://code.onion.com/fartscroll.js"></script>
 <script>
   fartscroll(400)
 </script>
 -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-39381114-2', 'erotte.de');
-  ga('send', 'pageview');
-  // ga('require', 'linkid', 'linkid.js');
-
-</script>
+        ga('create', 'UA-39381114-2', 'erotte.de');
+        ga('send', 'pageview');
+        // ga('require', 'linkid', 'linkid.js');
+    </script>
 </body>
+
 </html>

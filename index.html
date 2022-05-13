@@ -9,7 +9,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Eckhard Rotte – agile Softwareentwicklung für das Web – seit 1997">
-    <meta name="keywords" content="Eckhard Rotte,agile Softwareentwicklung,agile Coaching,Workshops,Digitalisierung,Vertikalisierung,Design System,Pattern Library,UX, UI,Scrum, Kanban, Beratung,Ruby,Rails,Ruby on Rails,Node.js,JavaScript,Bremen,Möpelschnöpel,Schnickschnack,Dingdong">
+    <meta name="keywords"
+        content="Eckhard Rotte,agile Softwareentwicklung,agile Coaching,Workshops,Digitalisierung,Vertikalisierung,Design System,Pattern Library,UX, UI,Scrum, Kanban, Beratung,Ruby,Rails,Ruby on Rails,Node.js,JavaScript,Bremen,Möpelschnöpel,Schnickschnack,Dingdong">
     <meta name="author" content="Eckhard Rotte">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,12 +19,12 @@
 
     <style type="text/css">
         /* The one and only global reset */
-        
+
         * {
             margin: 0;
             padding: 0;
         }
-        
+
         @font-face {
             font-family: "Axel";
             src: url("fonts/axel-regular.eot");
@@ -32,24 +33,24 @@
             font-style: normal;
             font-display: fallback;
         }
-        
+
         .list-inline {
             overflow: hidden;
         }
-        
+
         .list-inline li {
             display: inline-block;
             margin-right: 0.9em;
         }
-        
+
         .list-inline li:first-child {
             list-style: none
         }
-        
+
         .list-inline li:last-child {
             margin-right: 0
         }
-        
+
         body {
             font-family: "Droid Sans", sans-serif;
             color: #888;
@@ -57,17 +58,17 @@
             line-height: 24px;
             padding-bottom: 1em;
         }
-        
+
         h1,
         h2,
         h3 {
             font-weight: 500;
         }
-        
+
         p {
             margin-bottom: 1em
         }
-        
+
         a {
             -moz-transition-property: all;
             -webkit-transition-property: all;
@@ -78,35 +79,35 @@
             -o-transition-duration: 0.35s;
             transition-duration: 0.35s
         }
-        
+
         a,
         a:visited {
             color: #69e;
             text-decoration: none;
         }
-        
+
         a:hover {
             text-decoration: underline;
             color: #67e;
         }
-        
+
         #main {
             width: 70%;
             margin: 7% auto 2% auto;
         }
-        
+
         @media only screen and (max-device-width: 480px) {
             #main {
                 width: 93%;
                 margin: 7% auto;
             }
         }
-        
+
         header {
             overflow: hidden;
             margin-left: -0.2em
         }
-        
+
         .brand {
             color: #777;
             font-family: "Axel", sans-serif;
@@ -114,55 +115,57 @@
             margin: 0 auto 2em auto;
             display: inline-block;
         }
-        
+
         .brand-name {
             font-size: 55px;
             line-height: 1;
         }
-        
+
         .brand-sub {
             border-top: 1px solid #eee;
             font-size: 26px;
             line-height: 1.2em;
             margin-left: 0.12em;
         }
-        
+
         ul.skills {
-			list-style: none;
-			margin: 0 0 3em 0;
-			padding: 0;
-			max-width: 27em;
-			display: flex;
-			flex-wrap: wrap;
+            list-style: none;
+            margin: 0 0 3em 0;
+            padding: 0;
+            max-width: 27em;
+            display: flex;
+            flex-wrap: wrap;
 
         }
 
-        .skills > li {
-        	font-size: 0.85em;
+        .skills>li {
+            font-size: 0.85em;
 
         }
-        .skills > li:after {
-		    content: "•";
-		    text-shadow: #888 0 0 1px;
-		    margin: 0 0.6em;
+
+        .skills>li:after {
+            content: "•";
+            text-shadow: #888 0 0 1px;
+            margin: 0 0.6em;
         }
-        .skills > li:last-child:after {
-		    content: none;
-		    margin: 0;
+
+        .skills>li:last-child:after {
+            content: none;
+            margin: 0;
         }
 
         .adr-postal {
             line-height: 1.7em
         }
+
         .adr-social {
-            font-size: 0.85em
-            color: #aeaeae;
+            font-size: 0.85em color: #aeaeae;
             margin-bottom: 1em;
         }
-        .adr-social > li {
+
+        .adr-social>li {
             font-size: 0.85em
         }
-
     </style>
 
 </head>
@@ -184,24 +187,24 @@
 
 
         <ul class="skills">
-			<li>agile Softwareentwicklung</li>
-			<li>Workshops</li>
-			<li>agile Coaching</li>
-			<li>Remote Work</li>
-			<li>Digitalisierung im Mittelstand</li>
-			<li>Vertikalisierung</li>
-			<li>Design System</li>
-			<li>Pattern Library</li>
-			<li>eCommerce</li>
-			<li>UX</li>
-			<li>UI</li>
-			<li>Scrum/Kanban</li>
-			<li>Beratung</li>
-			<li>Ruby</li>
-			<li>Ruby on Rails</li>
-			<li>JavaScript/Node.js</li>
-			<li>CSS</li>
-			<li>Git</li>
+            <li>agile Softwareentwicklung</li>
+            <li>agile Coaching</li>
+            <li>Remote Work</li>
+            <li>Digitalisierung im Mittelstand</li>
+            <li>Vertikalisierung</li>
+            <li>Design System</li>
+            <li>Pattern Library</li>
+            <li>eCommerce</li>
+            <li>UX</li>
+            <li>UI</li>
+            <li>Scrum/Kanban</li>
+            <li>Beratung</li>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>GraphQL</li>
+            <li>JavaScript/Node.js</li>
+            <li>CSS</li>
+            <li>Git</li>
         </ul>
 
         <p class="adr-postal">
@@ -212,8 +215,6 @@
             <span class="postal-code">28205</span> <span class="locality">Bremen</span>
             <br>
             <span class="mail"><a class="email" href="mailto:mail@erotte.de" rel="me">mail@erotte.de</a></span>
-            <br>
-            <span class="tel"><a href="tel:+4917623498896">+49 (0)176 234 988 96</a></span>
         </p>
         <br>
         </p>
@@ -234,9 +235,9 @@
     </section>
 
     <script>
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
